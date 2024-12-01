@@ -6,39 +6,48 @@ We explored four different options for graph generation:
 2. **Anticloning every vertex** 
 3. **Alternating between cloning and anticloning** 
 4. **Probabilistic cloning and anticloning (with probability `p`)**
-5. 
+   
 ### Example Graphs
 
-Below are the example graphs generated during the simulation. Each graph represents the result after a specified number of iterations.
+Below are the example graphs generated during the simulation. Each graph represents the result after a specified number of iterations. 
+I used with a specified probability `p`=0.6, and initial_type: 'a' for two connected vertices. 
 
 #### Option 1: Cloning Every Vertex
 - **3 Iterations**:
+  
   ![Option 1 - 3 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%201%203%20iterations.png)
 - **5 Iterations**:
+  
   ![Option 1 - 5 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%201%205%20iterations.png)
 
 **Description**: The graph starts with two connected vertices. Each new vertex added is a clone of an existing vertex, leading to a dense, connected structure.
 
 #### Option 2: Anticloning Every Vertex
 - **3 Iterations**:
+  
   ![Option 2 - 3 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%202%203%20%20iterations.png)
 - **5 Iterations**:
+  
   ![Option 2 - 5 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%202%205%20iterations.png)
 
 **Description**: In this option, new vertices are connected to all vertices that are not neighbors of the original vertex. This results in a more sparsely connected graph.
 
 #### Option 3: Alternating Between Cloning and Anticloning
 - **3 Iterations**:
+  
   ![Option 3 - 3 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%203%203%20%20iterations.png)
 - **5 Iterations**:
+  
   ![Option 3 - 5 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%203%205%20iterations.png)
 
 **Description**: This option alternates between cloning and anticloning in each iteration. This results in a graph that exhibits characteristics of both dense and sparse structures, depending on the iteration.
 
 #### Option 4: Probabilistic Cloning and Anticloning
 - **3 Iterations**:
+  
   ![Option 4 - 3 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%204%203%20iterations.png)
 - **5 Iterations**:
+  
   ![Option 4 - 5 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%204%205%20iterations.png)
 
 **Description**: The graph is built using a probabilistic approach where cloning and anticloning are alternated based on a probability `p`. This introduces variation in the graph structure.
@@ -46,7 +55,7 @@ Below are the example graphs generated during the simulation. Each graph represe
 # Example of Graph Evolution Using Option 4 (Probabilistic Cloning and Anticloning)
 
 ## Overview
-In this experiment, we are visualizing each step, and we gain insights into how the probabilistic process shapes the graph's connectivity and clustering behavior. Each step reveals the dynamic evolution of the graph, with nodes and edges being added according to the probabilistic cloning and anticloning rules. we explore the behavior of the Iterative Independent Model (IIM) using **Option 4**, where the graph evolves through **Probabilistic Cloning and Anticloning**. At each iteration, with a specified probability `p`, a vertex may either clone (forming new edges with its neighbors) or anti clone (forming edges with all non-neighboring vertices). We started with initial_type: 'a' for two connected vertices. 
+In this experiment, we are visualizing each step of the graph's creation by the IIM model using **Option 4**, where the graph evolves through **Probabilistic Cloning and Anticloning**. At each iteration, with a specified probability `p`, a vertex may either clone (forming new edges with its neighbors) or anti clone (forming edges with all non-neighboring vertices). We started with initial_type: 'a' for two connected vertices. 
 
 The parameter `p` determines the likelihood of a node choosing cloning over anticloning. For this experiment, we used a probability value of **0.6**, meaning there is a 60% chance for cloning and a 40% chance for anticloning.
 
