@@ -17,7 +17,7 @@ The initial graph consists of two connected vertices, forming a simple starting 
 ### Step 1: First Iteration
 In the first iteration, probabilistic cloning and anticloning are applied to the existing nodes. The graph expands as new vertices are added.
 
-![Step 1 - First Iteration](images/step_1_first_iteration.png)
+![Step 1 - First Iteration](images/step_1.png)
 
 ### Step 2: Second Iteration
 In this step, the graph further evolves with additional nodes and edges based on the probabilistic cloning/anticloning process. The structure continues to develop with more complexity.
