@@ -20,7 +20,7 @@ We explored four different options for graph generation:
 
 We ran the simulation 20 times and calculated the spectral gap for each run. The average spectral gap is calculated as follows:
 
-- **Average Spectral Gap**: `XX.XX`
+- **Average Spectral Gap**: Average spectral gap over 15 runs: 0.7926149898118253
 
 #### Spectral Gap Distribution
 ![Spectral Gap Distribution](images/spectral_gap_distribution.png)
@@ -42,8 +42,4 @@ Further experiments can be conducted by varying the parameters, such as the prob
 
 ---
 
-### Notes:
-1. Replace `XX.XX` with the actual average spectral gap you calculated.
-2. Ensure all images mentioned are saved in the `images/` folder.
-3. Verify the file renders correctly on GitHub.
 
