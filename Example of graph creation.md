@@ -1,7 +1,7 @@
 # Example of Graph Evolution Using Option 4 (Probabilistic Cloning and Anticloning)
 
 ## Overview
-In this experiment, we explore the behavior of the Iterative Independent Model (IIM) using **Option 4**, where the graph evolves through **Probabilistic Cloning and Anticloning**. At each iteration, with a specified probability `p`, a vertex may either clone (forming new edges with its neighbors) or anticlone (forming edges with all non-neighboring vertices).
+In this experiment, we explore the behavior of the Iterative Independent Model (IIM) using **Option 4**, where the graph evolves through **Probabilistic Cloning and Anticloning**. At each iteration, with a specified probability `p`, a vertex may either clone (forming new edges with its neighbors) or anti clone (forming edges with all non-neighboring vertices). We started with initial_type: 'a' for two connected vertices. 
 
 The parameter `p` determines the likelihood of a node choosing cloning over anticloning. For this experiment, we used a probability value of **0.6**, meaning there is a 60% chance for cloning and a 40% chance for anticloning.
 
