@@ -17,17 +17,17 @@ The initial graph consists of two connected vertices, forming a simple starting 
 ### Step 1: First Iteration
 In the first iteration, probabilistic cloning and anticloning are applied to the existing nodes. The graph expands as new vertices are added.
 
-![Step 1 - First Iteration][(https://github.com/Ayo1a/Final-research-project/blob/main/images/step%201.png)]
+![Step 1 - First Iteration](https://github.com/Ayo1a/Final-research-project/blob/main/images/step%201.png)
 
 ### Step 2: Second Iteration
 In this step, the graph further evolves with additional nodes and edges based on the probabilistic cloning/anticloning process. The structure continues to develop with more complexity.
 
-![Step 2 - Second Iteration][(https://github.com/Ayo1a/Final-research-project/blob/main/images/step%202.png)]
+![Step 2 - Second Iteration](https://github.com/Ayo1a/Final-research-project/blob/main/images/step%202.png)
 
 ### Step 3: Third Iteration
 By the third iteration, the graph demonstrates more connectivity, showing the impact of both cloning and anticloning decisions on the graph's topology.
 
-![Step 3 - Third Iteration][(https://github.com/Ayo1a/Final-research-project/blob/main/images/step%203.png)]
+![Step 3 - Third Iteration](https://github.com/Ayo1a/Final-research-project/blob/main/images/step%203.png)
 
 ### Step 4: Foutrh Iteration
 In the fourth iteration, the graph continues to evolve, demonstrating even greater complexity and connectivity. The probabilistic nature of the cloning and anticloning processes leads to further expansion, with new vertices and edges forming according to the probabilistic rules.
