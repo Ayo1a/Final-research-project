@@ -27,9 +27,9 @@ The Iterative Independent Model (IIM) exhibits several structural properties tha
 
 ### **Computational Complexity of IIM Properties**
 
-The Iterative Independent Model (IIM) exhibits several structural properties that provide insights into network behavior. However, analyzing these properties involves a mix of computational challenges. While some properties are computationally tractable, others fall under NP-complete problems, making them infeasible to compute for large graphs. 
+The Iterative Independent Model (IIM) exhibits several structural properties that provide insights into network behavior. However, analyzing these properties involves a mix of computational challenges. While some properties are computationally tractable, others fall under NP-complete problems, making them computationally infeasible.
 
-It is essential to understand that due to computational limitations, it is not possible to check all parameters for large graphs comprehensively. As such, the analysis often focuses on key properties that can be efficiently calculated, while using approximations or heuristics for intractable problems. This highlights the balance between theoretical rigor and practical feasibility in studying IIM-generated graphs.
+It is essential to understand that due to computational limitations, it is not possible to test all parameters comprehensively. Therefore the analysis in the project focuses on key characteristics that can be efficiently calculated.
 
 
 #### **Spectral Gap**
@@ -59,7 +59,7 @@ It is essential to understand that due to computational limitations, it is not p
 By leveraging efficient algorithms where possible and applying approximations or heuristics for NP-complete problems, this project balances computational feasibility with analytical depth.
 
 
-The primary goal of this project is to evaluate whether the IIM accurately represents social networks by analyzing metrics such as **spectral gap** and **diameter**, and comparing these properties to real-world network characteristics.
+The primary goal of this project is to evaluate whether the IIM accurately represents social networks by analyzing the **spectral gap** and **diameter**, and comparing these properties to real-world network characteristics. 
 
 
 ### Baranashi Model
