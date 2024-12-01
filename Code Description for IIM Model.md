@@ -29,7 +29,7 @@ The provided Python code implements the Iterative Independent Model (IIM) for gr
    - This method computes the graph diameter (the longest shortest path between any two vertices), provided the graph is connected. If the graph is disconnected, it returns a message indicating the diameter is undefined.
 
 7. **compute_laplacian**:
-   - This function computes the normalized Laplacian matrix of the graph. It also visualizes the adjacency matrix, degree matrix, inverse square root of the degree matrix, and the normalized Laplacian matrix using heatmaps.
+   - This function computes the normalized Laplacian matrix of the graph. It also visualizes the adjacency matrix, degree matrix, inverse square root of the degree matrix, and the normalized Laplacian matrix using heatmaps.  Let D denote the diagonal degree matrix of G, we define the normalized Laplacian matrix \( L \) of G as L = I - D^(-1/2) * A * D^(-1/2).
 
 8. **calculate_spectral_gap**:
    - This function calculates the spectral gap of the graph, which is the difference between the second smallest eigenvalue and the largest eigenvalue of the normalized Laplacian. The spectral gap is important for understanding the graph’s clustering properties.
