@@ -37,6 +37,13 @@ The provided Python code implements the Iterative Independent Model (IIM) for gr
 9. **create_and_draw_steps**:
    - This method generates the graph step by step (across multiple iterations) and visualizes the process, showing the graph at each step.
 
+### Recent Code Enhancements  
+
+**step-by-step graph visualization** and **spectral gap analysis**. These enhancements enable a more detailed exploration of graph evolution and connectivity metrics. Users can now:  
+1. Visualize the graph structure at each iteration step.  The create_and_draw_steps method allows you to visualize the evolution of the graph after each iteration, providing an intuitive way to understand the effects of different options.
+2. Run simulations multiple times (e.g., 20 times) to calculate the average spectral gap, providing a statistical perspective on graph properties.  
+
+
 ---
 
 ### **Example Usage**
