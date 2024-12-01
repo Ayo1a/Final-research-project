@@ -15,39 +15,6 @@ We explored four different options for graph generation:
 
 ### Example Graphs
 
-Below are the example graphs generated during the simulation. Each graph represents the result after a specified number of iterations.
-
-#### Option 1: Cloning Every Vertex
-- **3 Iterations**:
-  ![Option 1 - 3 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%201%203%20iterations.png)
-- **5 Iterations**:
-  ![Option 1 - 5 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%201%205%20iterations.png)
-
-**Description**: The graph starts with two connected vertices. Each new vertex added is a clone of an existing vertex, leading to a dense, connected structure.
-
-#### Option 2: Anticloning Every Vertex
-- **3 Iterations**:
-  ![Option 2 - 3 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%202%203%20%20iterations.png)
-- **5 Iterations**:
-  ![Option 2 - 5 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%202%205%20iterations.png)
-
-**Description**: In this option, new vertices are connected to all vertices that are not neighbors of the original vertex. This results in a more sparsely connected graph.
-
-#### Option 3: Alternating Between Cloning and Anticloning
-- **3 Iterations**:
-  ![Option 3 - 3 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%203%203%20%20iterations.png)
-- **5 Iterations**:
-  ![Option 3 - 5 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%203%205%20iterations.png)
-
-**Description**: This option alternates between cloning and anticloning in each iteration. This results in a graph that exhibits characteristics of both dense and sparse structures, depending on the iteration.
-
-#### Option 4: Probabilistic Cloning and Anticloning
-- **3 Iterations**:
-  ![Option 4 - 3 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%204%203%20iterations.png)
-- **5 Iterations**:
-  ![Option 4 - 5 Iterations](https://github.com/Ayo1a/Final-research-project/blob/main/example%20of%20different%20graphs/option%204%205%20iterations.png)
-
-**Description**: The graph is built using a probabilistic approach where cloning and anticloning are alternated based on a probability `p`. This introduces variation in the graph structure.
 
 ### Spectral Gap Analysis
 
