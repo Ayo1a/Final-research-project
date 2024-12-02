@@ -50,7 +50,7 @@ The results from the simulation show the following:
 - The graph's spectral gap is closely related to the graph structure, and a higher spectral gap will indicate better connectivity.
 - We obtained results (within the limitations of the computational model) that align with the article's assertions. The spectral gap, measured as 0.7950732294021161, is bounded away from zero and remains less than 1. This indicates that while IIM graphs are not poor expanders, they are also not exceptionally strong expanders. This characteristic aligns well with the behavior typically observed in social networks.
 - We also found bound on the spectral within the limitations of the computational model
-- Alternating cloning and anticloning introduce a unique balance between density and sparsity in the graph structure. For more graphs from the same simulation looks here **<LINK>**
+- Alternating cloning and anticloning introduce a unique balance between density and sparsity in the graph structure. **For more graphs from the same simulation looks here:** ![more graphs from the this simulation](https://github.com/Ayo1a/Final-research-project/blob/main/more%20graphs%20from%20the%20simulation.md)
 - The probabilistic approach introduces variability, which can lead to graphs with more varied spectral gaps.
 - We can say that according to our simulation, the IIM model's ability to model social networks and clustering behavior was evident from the graph structure and spectral properties.
 
