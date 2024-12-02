@@ -1,6 +1,8 @@
 # Iterative Independent Model (IIM) 
 
-This repository contains the implementation of the **Iterative Independent Model (IIM)** and a proposal extended model, which is based on the **Barabási–Albert model**. The project is a research project and its primary objective is to modeling evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems. To achieve this, we created a Python model of the IIM and analyzed the results. 
+This repository contains the implementation of the **Iterative Independent Model (IIM)** and a proposal extended model, which is based on the **Barabási–Albert model**. 
+
+**The project is a research project and its primary objective is to modeling evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems. To achieve this, we created a Python model of the IIM and analyzed the results.**
 
 IIM graphs are a kind of **complex network**. From the understanding that complex networks effectively represent social networks in the real world, this article and research project were born. A significant part of this project involved developing a deep mathematical understanding of graphs and their attributes, such as the spectral gap, Laplacian matrix, diameter, and more. These concepts were studied to understand their effects on graph structure and behavior to analyze the model results effectively.
 
@@ -68,12 +70,12 @@ By leveraging efficient algorithms where possible and applying approximations or
 The primary goal of this project is to evaluate whether the IIM accurately represents social networks by analyzing the **spectral gap** and **diameter**, and comparing these properties to real-world network characteristics. 
 
 
-### Baranashi Model
-As an extension to the IIM, the **Baranashi Model** introduces a hybrid approach by integrating principles of the IIM with the **Barabási–Albert model**. Its main features include:
+### Hybrid Barabashi Model
+![link to page proposal](https://github.com/Ayo1a/Final-research-project/blob/main/Proposal%20to%20hybrid%20Barabashi%20model.md)
+As an extension to the IIM, the **Barabashi Model** introduces a hybrid approach by integrating principles of the IIM with the **Barabási–Albert model**. Its main features include:
 - **General Barabási's Rank distribution**, which ensures a heavy-tailed degree distribution, characteristic of many real-world networks.
 - The **Small World phenomenon**, where common friends increase the likelihood of new connections, enhancing network clustering.
 
-This model provides an additional perspective for analyzing the dynamics of social networks.
 
 ---
 
