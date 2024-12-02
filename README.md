@@ -1,8 +1,8 @@
 # Iterative Independent Model (IIM) 
 
-This repository contains the implementation of the **Iterative Independent Model (IIM)** and an extended model, the **Baranashi Model**, developed as part of my final research project. The project is a research project and its primary objective is to modeling evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems. To achieve this, we created a Python model of the IIM and analyzed the results. 
+This repository contains the implementation of the **Iterative Independent Model (IIM)** and a proposal extended model, which is based on the **Barabási–Albert model**. The project is a research project and its primary objective is to modeling evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems. To achieve this, we created a Python model of the IIM and analyzed the results. 
 
-Additionally, the project includes a new hybrid model, the **Baranashi Model**, which combines features of the IIM and the Barabási–Albert model to provide deeper insights into network behaviors.
+Additionally, the project includes a proposal for a new hybrid model, the **Barabashi Model**, which combines features of the IIM and the Barabási–Albert model to provide deeper insights into network behaviors.
 
 ---
 
@@ -20,7 +20,7 @@ The Iterative Independent Model (IIM) is a deterministic graph generation model 
 In this model, each node in the graph independently undergoes either cloning or anticloning during each iterative step. Despite its deterministic nature, the model exhibits intrinsic structural properties, making it versatile for applications regardless of randomness.
 
 Key properties of IIM graphs include:
-- **Spectral Gap Bounded Away from Zero**: Indicative of clustering and robustness in the network.
+- **Spectral Gap Bounded Away from Zero**: Indicative of clustering and robustness in the network and will be the key feature for common behavior with social networks.
 - **Bounded Graph Diameter**: Suggests efficient connectivity, a hallmark of social networks.
 - **Dominance and Clique Numbers**: Further characterize the clustering and hierarchical properties of the graph.
 - **Universal Induced Subgraphs**: Any fixed graph \(F\) will eventually appear as an induced subgraph after sufficient iterations.
