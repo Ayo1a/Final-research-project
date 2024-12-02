@@ -18,7 +18,7 @@ We explored four different options for graph generation:
   
 - But how much bounded away and what its borders?
 Lets analyze the range of eigenvalues of the Laplacian matrix ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Laplacian.PNG), denoted by 𝜆 (the spectral gap).
-- The spectral gap 𝜆 of (L) is defined by **<PHOTO-SG>** and the range of Laplacian matrix eigenvalues is **<PHOTO-range>**
+- The spectral gap 𝜆 of (L) is defined by ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/spectral%20gap.PNG) and the range of Laplacian matrix eigenvalues is **<PHOTO-range>**
 𝜆 cannot equal zero because, in that case, both 𝜆1 and 𝜆𝑛−1 would be equal to 1. This scenario corresponds to a fully connected graph where every vertex is connected to itself, a structure that the IIM model does not generate.
 - On the other hand, 𝜆!=1 because this results in two possibilities: either 𝜆1=0, indicating the graph is disconnected, or 𝜆𝑛−1=2, signifying the graph is bipartite. In our case, the assertion is that IIM graphs are connected, and neither of these scenarios aligns with the expected properties of the model.
 - The range of 𝜆 is [0,1], and based on the expectations described earlier, we anticipate a value close to 1.
@@ -27,7 +27,7 @@ The basis for the research's claim that IIM graphs have properties more similar 
 ## Results
 
 ### Example Graphs - 
-We will examine the graph created from option 4 and 3 steps with initial state of 2 connected nodes (option a). **<PHOTO of example graph>**
+We will examine the graph created from option 4 (Probabilistic cloning or anticloning based on a probability p = 0.6) and 3 steps with initial state of 2 connected nodes (option a). ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/example%20graph%20for%20results_3.png)
 
 ### Spectral Gap Analysis
 
