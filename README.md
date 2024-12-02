@@ -1,6 +1,6 @@
 # Iterative Independent Model (IIM) 
 
-This repository contains the implementation of the **Iterative Independent Model (IIM)** and an extended model, the **Baranashi Model**, developed as part of my final research project. The primary objective of this project is to evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems. To achieve this, we created a Python model of the IIM and analyzed results. 
+This repository contains the implementation of the **Iterative Independent Model (IIM)** and an extended model, the **Baranashi Model**, developed as part of my final research project. The project is a research project and its primary objective is to modeling evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems. To achieve this, we created a Python model of the IIM and analyzed the results. 
 
 Additionally, the project includes a new hybrid model, the **Baranashi Model**, which combines features of the IIM and the Barabási–Albert model to provide deeper insights into network behaviors.
 
