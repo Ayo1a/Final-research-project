@@ -2,6 +2,8 @@
 
 This repository contains the implementation of the **Iterative Independent Model (IIM)** and a proposal extended model, which is based on the **Barabási–Albert model**. The project is a research project and its primary objective is to modeling evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems. To achieve this, we created a Python model of the IIM and analyzed the results. 
 
+IIM graphs are a kind of **complex network**. From the understanding that complex networks effectively represent social networks in the real world, this article and research project were born. A significant part of this project involved developing a deep mathematical understanding of graphs and their attributes, such as the spectral gap, Laplacian matrix, diameter, and more. These concepts were studied to understand their effects on graph structure and behavior to analyze the model results effectively.
+
 Additionally, the project includes a proposal for a new hybrid model, the **Barabashi Model**, which combines features of the IIM and the Barabási–Albert model to provide deeper insights into network behaviors.
 
 ---
