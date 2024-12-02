@@ -23,7 +23,11 @@ This project is organized into a structured set of files and folders to facilita
    - A folder containing images showcasing examples of graphs generated during the project. It includes graphs from different options (cloning, anticloning, alternating, probabilistic) and various iteration counts.  
 
 7. **`images/`**  
-   - **Description**: A folder that stores all visual assets, such as heatmaps of adjacency matrices, degree matrices, Laplacian matrices, and spectral gap distributions.  
+   - **Description**: A folder that stores all visual assets, such as heatmaps of adjacency matrices, degree matrices, Laplacian matrices, and spectral gap distributions.
+
+8.**`More graphs from the simulation`** 
+- This file contains additional visualizations of graphs generated during the simulation. 
+
 
 ---
 
