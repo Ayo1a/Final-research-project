@@ -27,7 +27,9 @@ The basis for the research's claim that IIM graphs have properties more similar 
 ## Results
 
 ### Example Graphs - 
-We will examine the graph created from option 4 (Probabilistic cloning or anticloning based on a probability p = 0.6) and 3 steps with initial state of 2 connected nodes (option a). ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/example%20graph%20for%20results_3.png)
+We will examine the graph created from option 4 (Probabilistic cloning or anticloning based on a probability p = 0.6) and 3 steps with initial state of 2 connected nodes (option a).
+
+![](https://github.com/Ayo1a/Final-research-project/blob/main/images/example%20graph%20for%20results_3.png)
 
 ### Spectral Gap Analysis
 
