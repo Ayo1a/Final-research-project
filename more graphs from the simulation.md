@@ -4,7 +4,7 @@ In this section, we present additional graphs generated during the simulation pr
 
 ## Graph 1: 
 
-![](https://github.com/Ayo1a/Final-research-project/blob/main/images/example%20graph%20for%20results_3.png)
+![](https://github.com/Ayo1a/Final-research-project/blob/main/images/example%20graph%20for%20results.png)
 
 
 
