@@ -6,7 +6,7 @@ This repository contains the implementation of the **Iterative Independent Model
 
 IIM graphs are a kind of **complex network**. From the understanding that complex networks effectively represent social networks in the real world, this article and research project were born. A significant part of this project involved developing a deep mathematical understanding of graphs and their attributes, such as the spectral gap, Laplacian matrix, diameter, and more. These concepts were studied to understand their effects on graph structure and behavior to analyze the model results effectively.
 
-Additionally, the project includes a proposal for a new hybrid model, the **Barabashi Model**, which combines features of the IIM and the Barabási–Albert model to provide deeper insights into network behaviors.
+Additionally, the project includes a proposal for a ![new hybrid model](https://github.com/Ayo1a/Final-research-project/blob/main/Proposal%20to%20hybrid%20Barabashi%20model.md), the **Barabashi Model**, which combines features of the IIM and the Barabási–Albert model to provide deeper insights into network behaviors.
 
 ---
 
