@@ -9,7 +9,11 @@ an extremely high degree.
 - This is socially reasonable since this can be likened to psychological behavior.
 For example, suppose a person arrives at a new place. The likelihood that they will connect with a popular person is high, just like a child arriving at a new class.
 
-**link**
+**Example of a graph with heavy tail** 
+ - We can see a lot of vertices with a low degree and a few vertices with 
+an extremely high degree. 
+
+![](https://github.com/Ayo1a/Final-research-project/blob/main/images/heavy_tail.png)
 
 Alongside this, the IIM model also provides an example of social behavior of **small-world** feature with the **clone operation** and reflects the principle of "the friend of my friend is my friend". 
 The proposed model generates a graph through clone operations, but the added vertices choose a vertex with a high degree as a priority.
