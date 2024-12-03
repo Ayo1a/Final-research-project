@@ -36,7 +36,7 @@ Option 1: Cloning Every Vertex
 7. **compute_laplacian**:
    - This function computes the normalized Laplacian matrix of the graph. It also visualizes the adjacency matrix, degree matrix, inverse square root of the degree matrix, and the normalized Laplacian matrix using heatmaps.  Let \( D \) denote the diagonal degree matrix of G, we define the normalized Laplacian matrix \( L \) of G as ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Laplacian.PNG)
 
-**![Here](https://github.com/Ayo1a/Final-research-project/blob/main/Results%20of%20Laplacian%20Matrices.md), you can visually explore the matrices involved in the calculation in the end point**
+**![Here](https://github.com/Ayo1a/Final-research-project/blob/main/Results%20of%20Laplacian%20Matrices.md), you can visually explore the matrices involved in the calculation in the endpoint**
     ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/full%20visual%20laplasian%20calculation.png)
     ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/visual%20laplasian.png)
 
