@@ -9,7 +9,7 @@ IIM graphs are a kind of **complex network**. From the understanding that comple
 
 Additionally, the project includes a proposal for a ![new hybrid model](https://github.com/Ayo1a/Final-research-project/blob/main/Proposal%20to%20hybrid%20Barabashi%20model.md), the **Barabashi Model**, which combines features of the IIM and the Barabási–Albert model to provide deeper insights into network behaviors.
 
-### Refer to the ![Files Structure.md](https://github.com/Ayo1a/Final-research-project/blob/main/Files%20Structure.md) file for better navigation throughout the project
+#### Refer to the ![Files Structure.md](https://github.com/Ayo1a/Final-research-project/blob/main/Files%20Structure.md) file for better navigation throughout the project
 
 ---
 
