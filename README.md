@@ -41,7 +41,7 @@ It is essential to understand that due to computational limitations, it is not p
 
 
 #### **Spectral Gap**
-- **Available to Check**: The spectral gap, the difference between the largest and second-largest eigenvalues of the graph's Laplacian, can be computed efficiently using numerical linear algebra techniques. Tools like `numpy` or specialized libraries can be used to compute eigenvalues in polynomial time for graphs of practical size.
+- **Available to Check**: The spectral gap, the difference between the eigenvalues ​​at the edges of the graph's Laplacian, can be computed efficiently using numerical linear algebra techniques. Tools like `numpy` or specialized libraries can be used to compute eigenvalues in polynomial time for graphs of practical size.
 
 #### **Graph Diameter**
 - **Available to Check**: The graph diameter, the longest shortest path in the network, can be computed using all-pairs shortest paths algorithms such as Floyd-Warshall (O(\|V\|³)) or more efficient algorithms like Dijkstra's (O(\|E\| + \|V\| log \|V\|)) for sparse graphs. While computationally intensive for very large graphs, it is tractable for moderately sized networks.
@@ -64,11 +64,8 @@ It is essential to understand that due to computational limitations, it is not p
 | **Clique Number**           | NP-Complete         | Exact methods are infeasible for large graphs; approximations often used.   |
 | **Universal Induced Subgraphs** | NP-Complete         | Determining specific induced subgraphs is intractable for large networks.    |
 
-By leveraging efficient algorithms where possible and applying approximations or heuristics for NP-complete problems, this project balances computational feasibility with analytical depth.
 
-
-The primary goal of this project is to evaluate whether the IIM accurately represents social networks by analyzing the **spectral gap** and **diameter**, and comparing these properties to real-world network characteristics. 
-
+The primary goal of this project is to evaluate whether the IIM accurately represents social networks by analyzing the **spectral gap** and **diameter**, and comparing these properties to real-world network characteristics. To conduct this analysis, we first compute the Laplacian matrix of the graph. This matrix is derived using the rank matrix, adjacency matrix, and unit matrix, following the formula: ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Laplacian.PNG) when the range of eigenvalues ​​of the matrix is ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/range.PNG )​​and and the spectral gap is calculated using the following approach: ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/spectral%20gap.PNG)
 
 ### Hybrid Barabashi Model
 ![link to page proposal](https://github.com/Ayo1a/Final-research-project/blob/main/Proposal%20to%20hybrid%20Barabashi%20model.md)
