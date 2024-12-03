@@ -20,7 +20,10 @@ We explored four different options for graph generation:
   
 - But how much is bounded away and what are its borders?
 Lets analyze the range of eigenvalues of the Laplacian matrix![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Laplacian.PNG), denoted by 𝜆 (the spectral gap). This matrix is derived using the rank matrix D, adjacency matrix A, and unit matrix I.
-![see here the results of the various matrices in the Laplacian calculation created by running the code](https://github.com/Ayo1a/Final-research-project/blob/main/Results%20of%20Laplacian%20Matrices.md)
+
+**![Here](https://github.com/Ayo1a/Final-research-project/blob/main/Results%20of%20Laplacian%20Matrices.md), you can visually explore the matrices involved in the calculation in the endpoint**
+    ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/full%20visual%20laplasian%20calculation.png)
+    ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/visual%20laplasian.png)
 - The spectral gap 𝜆 of (L) is defined by![](https://github.com/Ayo1a/Final-research-project/blob/main/images/spectral%20gap.PNG), the difference between the eigenvalues ​​at the edges of the graph's Laplacian matrix. 
 and the range of Laplacian matrix eigenvalues is ![](https://github.com/user-attachments/assets/cbd49990-498c-4bb5-8e50-e847ffacb4f5)
 
