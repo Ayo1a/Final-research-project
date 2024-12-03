@@ -25,8 +25,18 @@ This project is organized into a structured set of files and folders to facilita
 7. **`images/`**  
    - **Description**: A folder that stores all visual assets, such as heatmaps of adjacency matrices, degree matrices, Laplacian matrices, and spectral gap distributions.
 
-8.**`More graphs from the simulation`** 
-- This file contains additional visualizations of graphs generated during the simulation. 
+8. **`More graphs from the simulation`** 
+   - This file contains additional visualizations of graphs generated during the simulation.
+
+9. **`Expander-Mixing Lemma.md`** 
+   - This file provides a detailed explanation of the Expander-Mixing Lemma, its relevance to the project, and how it supports the analysis of IIM graphs as models of real-world networks.
+
+10. **`Results of Laplacian Matrices.md`** 
+      - This file contains explanations and visualizations of the Laplacian matrix calculations, including how they are derived from the graph's adjacency and degree matrices.
+
+11. **`More graphs from the simulation`** 
+      - This file presents the concept of a hybrid model inspired by the IIM and Barabási–Albert models. It discusses how the model integrates features like heavy-tail degree distributions and small-world properties to             enhance the representation of social networks.
+
 
 
 ---
