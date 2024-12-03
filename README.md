@@ -28,6 +28,7 @@ The Iterative Independent Model (IIM) is a deterministic graph generation model 
 - **Cloning**: Reflects the principle of "the friend of my friend is my friend."
 - **Anticloning**: Captures the behavior of "the enemy of my enemy is my friend."
 - **To get an initial look at the graphs generated in this study** ![Click here[]()](https://github.com/Ayo1a/Final-research-project/blob/main/Graph%20Generation%20Process.md)
+![](https://github.com/Ayo1a/Final-research-project/blob/main/images/initial%20look.png)
 
 In this model, each node in the graph independently undergoes either cloning or anticloning during each iterative step. Despite its deterministic nature, the model exhibits intrinsic structural properties, making it versatile for applications regardless of randomness.
 
