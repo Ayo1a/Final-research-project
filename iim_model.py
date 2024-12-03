@@ -221,15 +221,12 @@ if __name__ == "__main__":
     spectral_gap = iim.calculate_spectral_gap(L)
     print(f"Spectral gap: {spectral_gap}")
 
-    """
     # Create graph and visualize step-by-step process
-    iim.create_and_draw_steps(option, initial_type, p)
-    """
+    #iim.create_and_draw_steps(option, initial_type, p)
 
-
-    """
-    #Example usage to run 20 times and calculate the average spectral gap:
+    # Example usage to run 20 times and calculate the average spectral gap:
     spectral_gaps = []  # List to store spectral gaps
+
     for _ in range(20):  # Run the process 20 times
       G = iim.create_graph(option, initial_type, steps, p)
       L = iim.compute_laplacian(G)
@@ -238,7 +235,17 @@ if __name__ == "__main__":
 
     avg_spectral_gap = np.mean(spectral_gaps)  # Calculate the average spectral gap
     print(f"Average spectral gap over 20 runs: {avg_spectral_gap}")
-    """
+
+    # Plot the distribution of spectral gaps
+    plt.figure(figsize=(8, 6))
+    plt.hist(spectral_gaps, bins=10, color='skyblue', edgecolor='black', alpha=0.7)
+    plt.axvline(avg_spectral_gap, color='red', linestyle='dashed', linewidth=1, label=f'Average: {avg_spectral_gap:.2f}')
+    plt.title('Distribution of Spectral Gaps over 20 Runs', fontsize=14)
+    plt.xlabel('Spectral Gap', fontsize=12)
+    plt.ylabel('Frequency', fontsize=12)
+    plt.legend()
+    plt.grid(alpha=0.3)
+    plt.show()
 
 """Draw steps"""
 
