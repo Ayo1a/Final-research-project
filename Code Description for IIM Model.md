@@ -21,7 +21,8 @@ The provided Python code implements the Iterative Independent Model (IIM) for gr
    
 ### Examples of creating graphs by the model
 Option 1: Cloning Every Vertex 
-![]()
+![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Examples%20of%20creating%20graphs.png)
+**for more examples click on this ![Link](https://github.com/Ayo1a/Final-research-project/blob/main/Graph%20Generation%20Process.md)**
 
 4. **probabilistic_copy**:
    - For each vertex, a probabilistic decision is made: with probability `p`, the vertex is cloned, and with probability `1-p`, it is anticloned. This mimics a more realistic model where the expansion of a node's neighborhood can follow either pattern with some randomness.
