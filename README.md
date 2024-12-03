@@ -1,3 +1,4 @@
+![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Cover_forReadMe.jpg)
 # Iterative Independent Model (IIM) 
 
 This repository contains the implementation of the **Iterative Independent Model (IIM)** and a proposal extended model, which is based on the **Barabási–Albert model**. 
