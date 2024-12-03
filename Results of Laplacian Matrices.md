@@ -16,7 +16,14 @@ The degree matrix is a diagonal matrix where each diagonal entry represents the 
 - Node degrees are calculated as the sum of edges connected to each node.
 ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Diagonal%20Degree%20matrix%20D.png)
 
-### 3. **Normalized Laplacian Matrix (L)**
+### 3. **Calculate (D^0.5)**
+After calculating the Degree Matrix (D), the next step is to compute 𝐷^-1/2, which is the inverse square root of the degree matrix.
+![](https://github.com/Ayo1a/Final-research-project/blob/main/images/D%5E-0.5.png)
+
+### 4. **Complete calculation with identity matrix \( I \)**
+ The results obtained so far will subtract from the identity matrix 𝐼 and we will gate the normalized Laplacian matrix.
+
+### 5. **Normalized Laplacian Matrix (L)**
 The normalized Laplacian matrix is defined as:
 ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Laplacian.PNG)
 Where \( I \) is the identity matrix, \( A \) is the adjacency matrix, and \( D \) is the degree matrix
@@ -24,7 +31,7 @@ Where \( I \) is the identity matrix, \( A \) is the adjacency matrix, and \( D 
 
 This matrix is critical for analyzing graph properties, such as connectivity and clustering.
 
-### 4. **Spectral Gap**
+### 6. **Spectral Gap**
 ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/spectral%20gap.PNG)
 - **Spectral Gap:** \( 𝜆 = 0.7950732294021161 \)
 The spectral gap is bounded away from zero and remains less than 1. This indicates that while IIM graphs are not poor expanders, they are also not exceptionally strong expanders.
