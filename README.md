@@ -41,7 +41,7 @@ It is essential to understand that due to computational limitations, it is not p
 
 
 #### **Spectral Gap**
-- **Available to Check**: The spectral gap, the difference between the eigenvalues ​​at the edges of the graph's Laplacian, can be computed efficiently using numerical linear algebra techniques. Tools like `numpy` or specialized libraries can be used to compute eigenvalues in polynomial time for graphs of practical size.
+- **Available to Check**: A key feature in our project through which we will verify the results of the article. The spectral gap, the difference between the eigenvalues ​​at the edges of the graph's Laplacian, can be computed efficiently using numerical linear algebra techniques. Tools like `numpy` or specialized libraries can be used to compute eigenvalues in polynomial time for graphs of practical size.
 
 #### **Graph Diameter**
 - **Available to Check**: The graph diameter, the longest shortest path in the network, can be computed using all-pairs shortest paths algorithms such as Floyd-Warshall (O(\|V\|³)) or more efficient algorithms like Dijkstra's (O(\|E\| + \|V\| log \|V\|)) for sparse graphs. While computationally intensive for very large graphs, it is tractable for moderately sized networks.
