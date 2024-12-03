@@ -26,7 +26,7 @@ Lets analyze the range of eigenvalues of the Laplacian matrix![](https://github.
     ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/full%20visual%20laplasian%20calculation.png)
     ![](https://github.com/Ayo1a/Final-research-project/blob/main/images/visual%20laplasian.png)
 
-#### Observations from the creation of the Laplacian matrix ![Link]((https://github.com/Ayo1a/Final-research-project/blob/main/Results%20of%20Laplacian%20Matrices.md))
+#### Observations from the creation of the Laplacian matrix ![Link](https://github.com/Ayo1a/Final-research-project/blob/main/Results%20of%20Laplacian%20Matrices.md)
 
 - The spectral gap 𝜆 of (L) is defined by![](https://github.com/Ayo1a/Final-research-project/blob/main/images/spectral%20gap.PNG), the difference between the eigenvalues ​​at the edges of the graph's Laplacian matrix. 
 and the range of Laplacian matrix eigenvalues is ![](https://github.com/user-attachments/assets/cbd49990-498c-4bb5-8e50-e847ffacb4f5)
