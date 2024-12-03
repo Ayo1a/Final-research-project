@@ -11,7 +11,8 @@ We explored four different options for graph generation:
 3. **Alternating between cloning and anticloning** 
 4. **Probabilistic cloning and anticloning (with probability `p`)**
 
-- **To explore the different graphs generated in this study** ![Click here[]()](https://github.com/Ayo1a/Final-research-project/blob/main/Graph%20Generation%20Process.md)
+- **To explore the different graphs generated in this study** ![**Click here**](https://github.com/Ayo1a/Final-research-project/blob/main/Graph%20Generation%20Process.md) 
+![](https://github.com/Ayo1a/Final-research-project/blob/main/images/Examples%20of%20creating%20graphs.png)
 
 ## Mathematical background:
 - A deeper understanding of the spectral gap's implications and its connection to clustering and network resilience is crucial to determining whether our findings support or contradict the article's assertions. By refining and analyzing the model, we strive to gain meaningful insights into the behavior of IIM graphs in this context.
