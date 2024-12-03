@@ -17,6 +17,10 @@ Additionally, the project includes a proposal for a ![new hybrid model](https://
 
 Working on this project has been an incredibly rewarding and enjoyable experience. It was fascinating to explore the nuances of graph theory and observe the dynamic behaviors of different graph generation methods. Each step, from implementing the models to visualizing their evolution and analyzing their spectral properties, deepened my mathematical understanding strengthened my appreciation for the graph world, and expanded my knowledge of different Python graph folders, providing a very deep understanding of the subject. This project not only challenged me technically but also inspired me to delve further into the beauty and complexity of mathematical models in graph structures.
 
+**I would like to express my sincere gratitude to my project supervisor, Dr. Zur Luria from Azrieli College of Engineering, for his unwavering belief in me throughout the project and for being an inspiring source of knowledge.**
+
+**Belief is a highly expander graph** 🌟
+
 ## Project Overview
 
 ### Iterative Independent Model (IIM)
