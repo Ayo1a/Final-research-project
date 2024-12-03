@@ -18,6 +18,10 @@ The provided Python code implements the Iterative Independent Model (IIM) for gr
 
 3. **anticlone**:
    - This method creates an "anticlone" by adding a new vertex connected to all other vertices that are not neighbors of the original vertex.
+   
+### Examples of creating graphs by the model
+Option 1: Cloning Every Vertex 
+![]()
 
 4. **probabilistic_copy**:
    - For each vertex, a probabilistic decision is made: with probability `p`, the vertex is cloned, and with probability `1-p`, it is anticloned. This mimics a more realistic model where the expansion of a node's neighborhood can follow either pattern with some randomness.
