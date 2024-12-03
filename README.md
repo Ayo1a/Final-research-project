@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the **Iterative Independent Model (IIM)** and a proposal extended model, which is based on the **Barabási–Albert model**. 
 
-**The project is a research project and its primary objective is to modeling evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems. To achieve this, we created a Python model of the IIM and analyzed the results.**
+**The project is a research project and its primary objective is to modeling evaluate the accuracy of the research article "[Iterative Independent Model: arXiv:2209.01093](https://arxiv.org/pdf/2209.01093)" in claiming that the IIM effectively represents real-world networks, such as social networks, internet traffic, and biological systems and thereby promoting their research. To achieve this, we created a Python model of the IIM and analyzed the results.**
 
 IIM graphs are a kind of **complex network**. From the understanding that complex networks effectively represent social networks in the real world, this article and research project were born. A significant part of this project involved developing a deep mathematical understanding of graphs and their attributes, such as the spectral gap, Laplacian matrix, diameter, and more. These concepts were studied to understand their effects on graph structure and behavior to analyze the model results effectively.
 
@@ -20,6 +20,7 @@ Working on this project has been an incredibly rewarding and enjoyable experienc
 The Iterative Independent Model (IIM) is a deterministic graph generation model designed to simulate the structure and evolution of real-world networks, such as social networks, internet traffic, and biological systems. It generalizes earlier models by incorporating **cloning** and **anticloning** processes to mimic transitive and anti-transitive behaviors observed in social dynamics:
 - **Cloning**: Reflects the principle of "the friend of my friend is my friend."
 - **Anticloning**: Captures the behavior of "the enemy of my enemy is my friend."
+- **To get an initial look at the graphs generated in this study** ![Click here[]()](https://github.com/Ayo1a/Final-research-project/blob/main/Graph%20Generation%20Process.md)
 
 In this model, each node in the graph independently undergoes either cloning or anticloning during each iterative step. Despite its deterministic nature, the model exhibits intrinsic structural properties, making it versatile for applications regardless of randomness.
 
